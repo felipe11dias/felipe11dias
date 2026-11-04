@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-labelledby="t d" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace">
+<title id="t">Uma API, duas arquiteturas</title>
+<desc id="d">Pacotes atravessam uma arquitetura em camadas e contornam uma arquitetura hexagonal.</desc>
+<style>
+.pk{offset-rotate:0deg;animation:mv linear infinite}
+@keyframes mv{0%{offset-distance:0%;opacity:0}6%{opacity:1}94%{opacity:1}100%{offset-distance:100%;opacity:0}}
+.pulse{animation:pulse 3s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<defs>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#1d2743"/></pattern>
+<radialGradient id="glow" cx="12%" cy="0%" r="75%"><stop offset="0" stop-color="#a78bfa" stop-opacity=".16"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></radialGradient>
+</defs>
+<rect x="1" y="1" width="998" height="298" rx="16" fill="#0b1020"/>
+<rect x="1" y="1" width="998" height="298" rx="16" fill="url(#dots)"/>
+<rect x="1" y="1" width="998" height="298" rx="16" fill="url(#glow)"/>
+<rect x="1" y="1" width="998" height="298" rx="16" fill="none" stroke="#2a3654" stroke-width="1.5"/>
+<text x="36" y="46" font-size="14" fill="#a78bfa" font-weight="700" letter-spacing="1">TRADE-OFFS DE ARQUITETURA</text>
+<text x="606" y="46" font-size="14" fill="#8a97b4" text-anchor="end">abrir ↗</text>
+<text x="36" y="88" font-size="36" fill="#e8eefb" font-weight="700">Uma API, duas arquiteturas</text>
+<text x="36" y="122" font-size="18" fill="#c2cde2">Mesmos requisitos e mesma stack, para que a única</text><text x="36" y="148" font-size="18" fill="#c2cde2">variável da comparação seja a arquitetura.</text>
+<rect x="36" y="172" width="180" height="68" rx="10" fill="#121a30" stroke="#2a3654"/>
+<text x="50" y="202" font-size="24" fill="#a78bfa" font-weight="700">252</text>
+<text x="50" y="226" font-size="13" fill="#c2cde2">testes em camadas</text>
+<rect x="228" y="172" width="180" height="68" rx="10" fill="#121a30" stroke="#2a3654"/>
+<text x="242" y="202" font-size="24" fill="#a78bfa" font-weight="700">290</text>
+<text x="242" y="226" font-size="13" fill="#c2cde2">testes hexagonal</text>
+<rect x="420" y="172" width="180" height="68" rx="10" fill="#121a30" stroke="#2a3654"/>
+<text x="434" y="202" font-size="24" fill="#a78bfa" font-weight="700">100%</text>
+<text x="434" y="226" font-size="13" fill="#c2cde2">cobertura nas duas</text>
+<text x="36" y="270" font-size="14" fill="#8a97b4">Java 21 · Spring Boot · JdbcTemplate · PostgreSQL · Flyway · JWT</text>
+<rect x="630" y="24" width="346" height="252" rx="12" fill="#121a30" stroke="#2a3654" stroke-width="1.5"/>
+<rect x="650" y="62" width="126" height="42" rx="7" fill="#a78bfa" fill-opacity="0.14" stroke="#a78bfa" stroke-opacity=".6"/><text x="713" y="88" font-size="13" fill="#e8eefb" text-anchor="middle">controller</text><rect x="650" y="116" width="126" height="42" rx="7" fill="#a78bfa" fill-opacity="0.24000000000000002" stroke="#a78bfa" stroke-opacity=".6"/><text x="713" y="142" font-size="13" fill="#e8eefb" text-anchor="middle">service</text><rect x="650" y="170" width="126" height="42" rx="7" fill="#a78bfa" fill-opacity="0.34" stroke="#a78bfa" stroke-opacity=".6"/><text x="713" y="196" font-size="13" fill="#e8eefb" text-anchor="middle">repository</text>
+<circle class="pk" r="5" fill="#a78bfa" style="offset-path:path('M713 44V224');animation-duration:3.6s;animation-delay:0s"/><circle class="pk" r="4" fill="#e8eefb" style="offset-path:path('M713 44V224');animation-duration:3.6s;animation-delay:-1.8s"/>
+<path d="M880.0 52.0L942.4 88.0L942.4 160.0L880.0 196.0L817.6 160.0L817.6 88.0Z" fill="#a78bfa" fill-opacity=".12" stroke="#a78bfa" stroke-opacity=".7" stroke-width="1.5"/>
+<polygon points="880.0 88.0 911.2 106.0 911.2 142.0 880.0 160.0 848.8 142.0 848.8 106.0" fill="#a78bfa" fill-opacity=".36" stroke="#a78bfa" stroke-opacity=".7"/>
+<text x="880" y="128" font-size="12" fill="#e8eefb" font-weight="700" text-anchor="middle">domain</text>
+<circle class="pk" r="5" fill="#a78bfa" style="offset-path:path('M880.0 52.0L942.4 88.0L942.4 160.0L880.0 196.0L817.6 160.0L817.6 88.0Z');animation-duration:7.2s;animation-delay:0s"/><circle class="pk" r="4" fill="#e8eefb" style="offset-path:path('M880.0 52.0L942.4 88.0L942.4 160.0L880.0 196.0L817.6 160.0L817.6 88.0Z');animation-duration:7.2s;animation-delay:-3.6s"/>
+<text x="713" y="256" font-size="14" fill="#a78bfa" font-weight="700" text-anchor="middle">Camadas</text>
+<text x="880" y="256" font-size="14" fill="#a78bfa" font-weight="700" text-anchor="middle">Hexagonal</text>
+</svg>
