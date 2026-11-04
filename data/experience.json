@@ -1,0 +1,23 @@
+{
+  "company": "UNIFOR",
+  "roles": [
+    {
+      "title": "Estagiário",
+      "start": "2018-07",
+      "end": "2020-07",
+      "mode": "Estágio"
+    },
+    {
+      "title": "Desenvolvedor Web Júnior",
+      "start": "2020-08",
+      "end": "2021-07",
+      "mode": "Híbrido"
+    },
+    {
+      "title": "Desenvolvedor Web Pleno",
+      "start": "2021-07",
+      "end": null,
+      "mode": "Remoto"
+    }
+  ]
+}

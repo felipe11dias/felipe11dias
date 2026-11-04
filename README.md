@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="assets/hero.svg" width="100%" alt="Felipe Dias Mac Dowell: Backend Java, Full Stack e sistemas orientados a eventos. Pipeline animado de cliente a Spring e Quarkus, Kafka e RabbitMQ, Airflow, e Postgres e Oracle.">
+  <img src="assets/hero.svg" width="100%" alt="Felipe Dias Mac Dowell: desenvolvedor Full Stack com foco em Java, Angular e TypeScript. Pipeline animado de cliente a Spring e Quarkus, Kafka e RabbitMQ, Airflow, e Postgres e Oracle.">
 </p>
 
-Sou desenvolvedor de software na **Diretoria de Tecnologia da Universidade de Fortaleza (UNIFOR)**, onde construo APIs e sistemas corporativos com **Java, Spring Boot, Quarkus e Angular**, usando **Kafka, RabbitMQ e Airflow** para integração e orquestração.
+Sou desenvolvedor **full stack** na **Diretoria de Tecnologia da Universidade de Fortaleza (UNIFOR)**, atuando no frontend e no backend com foco em **Java, Angular e TypeScript**. Construo APIs e sistemas corporativos com Spring Boot e Quarkus, interfaces com Angular, e uso Kafka, RabbitMQ e Airflow para integração e orquestração.
 
-Meu foco é backend, arquitetura de software, qualidade de código e soluções escaláveis, sem perder de vista o frontend e o produto como um todo.
+Também tenho interesse especial por arquitetura de software, qualidade de código e soluções escaláveis, com visão do produto como um todo.
 
-**[LinkedIn](https://www.linkedin.com/in/felipe-dias-mac-dowell-255578193/)** · **[Repositórios](https://github.com/felipe11dias?tab=repositories)**
+**[LinkedIn](https://www.linkedin.com/in/felipemacdowell-dev/)** · **[Repositórios](https://github.com/felipe11dias?tab=repositories)**
 
 <img src="assets/divider.svg" width="100%" alt="">
 
@@ -78,18 +78,34 @@ Meu foco é backend, arquitetura de software, qualidade de código e soluções 
 
 ## Experiência
 
-### Universidade de Fortaleza (UNIFOR)
+<!-- experience:start -->
+<p align="center">
+  <img src="assets/experience.svg" width="100%" alt="Escada animada da carreira na UNIFOR: Estagiário, depois Desenvolvedor Web Júnior, depois Desenvolvedor Web Pleno, com 8 anos e 5 meses de experiência.">
+</p>
 
-**Desenvolvedor Web Pleno** · Diretoria de Tecnologia
+<p align="center"><strong>8 anos e 5 meses de experiência</strong>, do estágio ao cargo atual.</p>
+<!-- experience:end -->
 
-Análise, desenvolvimento, manutenção e evolução dos sistemas Web da instituição:
+### Universidade de Fortaleza (UNIFOR) · Diretoria de Tecnologia
+
+**Desenvolvedor Web Pleno** · jul/2021 – atual · Remoto
+
+Atuo no ciclo completo de desenvolvimento de sistemas internos, da análise de requisitos à entrega em produção:
 
 - APIs e serviços backend com Java, Spring e Quarkus;
-- mensageria com Kafka e RabbitMQ e orquestração de pipelines com Airflow;
 - frontend com Angular e TypeScript;
+- mensageria com Kafka e RabbitMQ e orquestração de pipelines com Airflow;
 - bancos de dados Oracle, MySQL e PostgreSQL;
 - integração entre sistemas, análise e correção de problemas;
 - testes automatizados, planejamento e definição de soluções técnicas.
+
+**Desenvolvedor Web Júnior** · ago/2020 – jul/2021 · Híbrido
+
+Primeira posição como desenvolvedor após o estágio, com foco em implementação e manutenção de funcionalidades sob orientação do time.
+
+**Estagiário** · jul/2018 – jul/2020
+
+Estágio na Diretoria de Tecnologia, onde construí minha base técnica e profissional em desenvolvimento de software.
 
 ## Formação
 
@@ -104,7 +120,7 @@ Formação complementar em lógica de programação, orientação a objetos, Jav
 
 **"Transformando problemas em soluções através da tecnologia."**
 
-[LinkedIn](https://www.linkedin.com/in/felipe-dias-mac-dowell-255578193/) · [GitHub](https://github.com/felipe11dias) · [Facebook](https://www.facebook.com/share/1Ep2QC1Mih/)
+[LinkedIn](https://www.linkedin.com/in/felipemacdowell-dev/) · [GitHub](https://github.com/felipe11dias) · [Facebook](https://www.facebook.com/share/1Ep2QC1Mih/)
 
 Obrigado pela visita!
 
