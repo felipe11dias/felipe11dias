@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-labelledby="t d" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace">
+<title id="t">Jogos Sérios</title>
+<desc id="d">Quiz com alternativas que acendem ao lado de um ranking crescente.</desc>
+<style>
+.pk{offset-rotate:0deg;animation:mv linear infinite}
+@keyframes mv{0%{offset-distance:0%;opacity:0}6%{opacity:1}94%{opacity:1}100%{offset-distance:100%;opacity:0}}
+.pulse{animation:pulse 3s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}.opt{opacity:0;animation:opt 6s ease-in-out infinite}@keyframes opt{0%,25%,100%{opacity:0}8%,18%{opacity:1}}
+.bar{transform-box:fill-box;transform-origin:left center;animation:bar 6s ease-in-out infinite}@keyframes bar{0%{transform:scaleX(.15)}50%,85%{transform:scaleX(1)}100%{transform:scaleX(.15)}}</style>
+<defs>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#1d2743"/></pattern>
+<radialGradient id="glow" cx="12%" cy="0%" r="75%"><stop offset="0" stop-color="#f472b6" stop-opacity=".16"/><stop offset="1" stop-color="#f472b6" stop-opacity="0"/></radialGradient>
+</defs>
+<rect x="1" y="1" width="998" height="298" rx="16" fill="#0b1020"/>
+<rect x="1" y="1" width="998" height="298" rx="16" fill="url(#dots)"/>
+<rect x="1" y="1" width="998" height="298" rx="16" fill="url(#glow)"/>
+<rect x="1" y="1" width="998" height="298" rx="16" fill="none" stroke="#2a3654" stroke-width="1.5"/>
+<text x="36" y="46" font-size="14" fill="#f472b6" font-weight="700" letter-spacing="1">TCC · CIÊNCIA DA COMPUTAÇÃO · UNIFOR</text>
+<text x="606" y="46" font-size="14" fill="#8a97b4" text-anchor="end">abrir ↗</text>
+<text x="36" y="88" font-size="36" fill="#e8eefb" font-weight="700">Jogos Sérios</text>
+<text x="36" y="122" font-size="18" fill="#c2cde2">Ambiente colaborativo de jogos sérios para alunos</text><text x="36" y="148" font-size="18" fill="#c2cde2">da graduação, com atividades criadas por professores.</text>
+<rect x="36" y="172" width="180" height="68" rx="10" fill="#121a30" stroke="#2a3654"/>
+<text x="50" y="202" font-size="24" fill="#f472b6" font-weight="700">3</text>
+<text x="50" y="226" font-size="13" fill="#c2cde2">jogos integrados</text>
+<rect x="228" y="172" width="180" height="68" rx="10" fill="#121a30" stroke="#2a3654"/>
+<text x="242" y="202" font-size="24" fill="#f472b6" font-weight="700">2</text>
+<text x="242" y="226" font-size="13" fill="#c2cde2">aluno e professor</text>
+<rect x="420" y="172" width="180" height="68" rx="10" fill="#121a30" stroke="#2a3654"/>
+<text x="434" y="202" font-size="24" fill="#f472b6" font-weight="700">Ranking</text>
+<text x="434" y="226" font-size="13" fill="#c2cde2">desempenho por jogo</text>
+<text x="36" y="270" font-size="14" fill="#8a97b4">React · TypeScript · Redux · MUI · Spring Boot 3 · JWT · PostgreSQL</text>
+<rect x="630" y="24" width="346" height="252" rx="12" fill="#121a30" stroke="#2a3654" stroke-width="1.5"/>
+<text x="650" y="48" font-size="14" fill="#f472b6" font-weight="700">Quiz</text><rect x="650" y="60" width="132" height="36" rx="8" fill="#0b1020" stroke="#2a3654"/>
+<rect class="opt" style="animation-delay:0s" x="650" y="60" width="132" height="36" rx="8" fill="#f472b6" fill-opacity=".35" stroke="#f472b6"/>
+<text x="668" y="83" font-size="14" fill="#e8eefb" font-weight="700">A</text><rect x="690" y="74" width="74" height="8" rx="4" fill="#8a97b4"/><rect x="650" y="106" width="132" height="36" rx="8" fill="#0b1020" stroke="#2a3654"/>
+<rect class="opt" style="animation-delay:1.5s" x="650" y="106" width="132" height="36" rx="8" fill="#f472b6" fill-opacity=".35" stroke="#f472b6"/>
+<text x="668" y="129" font-size="14" fill="#e8eefb" font-weight="700">B</text><rect x="690" y="120" width="58" height="8" rx="4" fill="#8a97b4"/><rect x="650" y="152" width="132" height="36" rx="8" fill="#0b1020" stroke="#2a3654"/>
+<rect class="opt" style="animation-delay:3s" x="650" y="152" width="132" height="36" rx="8" fill="#f472b6" fill-opacity=".35" stroke="#f472b6"/>
+<text x="668" y="175" font-size="14" fill="#e8eefb" font-weight="700">C</text><rect x="690" y="166" width="80" height="8" rx="4" fill="#8a97b4"/><rect x="650" y="198" width="132" height="36" rx="8" fill="#0b1020" stroke="#2a3654"/>
+<rect class="opt" style="animation-delay:4.5s" x="650" y="198" width="132" height="36" rx="8" fill="#f472b6" fill-opacity=".35" stroke="#f472b6"/>
+<text x="668" y="221" font-size="14" fill="#e8eefb" font-weight="700">D</text><rect x="690" y="212" width="50" height="8" rx="4" fill="#8a97b4"/>
+<text x="810" y="48" font-size="14" fill="#f472b6" font-weight="700">Ranking</text><rect x="810" y="88" width="146" height="20" rx="6" fill="#0b1020"/>
+<rect class="bar" style="animation-delay:0s" x="810" y="88" width="126" height="20" rx="6" fill="#f472b6" fill-opacity="0.95"/>
+<text x="810" y="82" font-size="12" fill="#c2cde2">1º lugar</text><rect x="810" y="144" width="146" height="20" rx="6" fill="#0b1020"/>
+<rect class="bar" style="animation-delay:-1.2s" x="810" y="144" width="96" height="20" rx="6" fill="#f472b6" fill-opacity="0.73"/>
+<text x="810" y="138" font-size="12" fill="#c2cde2">2º lugar</text><rect x="810" y="200" width="146" height="20" rx="6" fill="#0b1020"/>
+<rect class="bar" style="animation-delay:-2.4s" x="810" y="200" width="68" height="20" rx="6" fill="#f472b6" fill-opacity="0.51"/>
+<text x="810" y="194" font-size="12" fill="#c2cde2">3º lugar</text>
+</svg>

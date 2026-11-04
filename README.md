@@ -1,175 +1,127 @@
-# 👨‍💻 Felipe Dias Mac Dowell
+<p align="center">
+  <img src="assets/hero.svg" width="100%" alt="Felipe Dias Mac Dowell: desenvolvedor Full Stack com foco em Java, Angular e TypeScript. Pipeline animado de cliente a Spring e Quarkus, Kafka e RabbitMQ, Airflow, e Postgres e Oracle.">
+</p>
 
-### Desenvolvedor Web | Backend Java | Full Stack
+Sou desenvolvedor **full stack** na **Diretoria de Tecnologia da Universidade de Fortaleza (UNIFOR)**, atuando no frontend e no backend com foco em **Java, Angular e TypeScript**. Construo APIs e sistemas corporativos com Spring Boot e Quarkus, interfaces com Angular, e uso Kafka, RabbitMQ e Airflow para integração e orquestração.
 
-Olá! Sou **Felipe Dias Mac Dowell**, desenvolvedor de software com experiência em desenvolvimento Web, atuando principalmente com **Java, Spring Boot, Angular e tecnologias relacionadas ao desenvolvimento de APIs e aplicações corporativas**.
+Também tenho interesse especial por arquitetura de software, qualidade de código e soluções escaláveis, com visão do produto como um todo.
 
-Atualmente faço parte da **Diretoria de Tecnologia da Universidade de Fortaleza (UNIFOR)**, onde atuo no desenvolvimento, manutenção e evolução de sistemas utilizados pela instituição.
+**[LinkedIn](https://www.linkedin.com/in/felipemacdowell-dev/)** · **[Repositórios](https://github.com/felipe11dias?tab=repositories)**
 
-Tenho interesse especial por **backend, arquitetura de software, APIs REST, qualidade de código e desenvolvimento de soluções escaláveis**. Também gosto de explorar novas tecnologias e transformar ideias em projetos reais.
+<img src="assets/divider.svg" width="100%" alt="">
 
----
+## Projetos em destaque
 
-## 🚀 Sobre mim
+<a href="https://github.com/felipe11dias/postech-fase2-restaurantes-app"><img src="assets/projects/restaurantes.svg" width="100%" alt="Gestão de Restaurantes: Clean Architecture, trabalho em grupo. 1.104 testes, 100% de linhas e ramos nos testes unitários e 48 regras ArchUnit."></a>
 
-```text
-💻 Desenvolvedor Web
-☕ Foco em Backend Java
-🌐 Experiência Full Stack
-🏗️ APIs REST e sistemas corporativos
-🗄️ Bancos relacionais e SQL
-🧪 Testes e qualidade de software
-📚 Sempre aprendendo novas tecnologias
-```
+**Sistema de gestão compartilhada de restaurantes**, feito em grupo no Tech Challenge da pós-graduação. O build falha se a cobertura unitária ficar abaixo de 100% ou se a regra de dependência da Clean Architecture for violada, e os testes de integração rodam contra um PostgreSQL real com Testcontainers.
 
-Minha trajetória começou ainda durante a graduação em **Ciência da Computação na UNIFOR**, passando por projetos acadêmicos, desenvolvimento de aplicações e atuação profissional em diferentes sistemas e produtos de software.
+*Stack:* Java 21, Spring Boot 3.5, Spring Security com JWT, PostgreSQL, Flyway, Docker, JUnit 5, Testcontainers, ArchUnit e JaCoCo.<br>
+*Links:* [repositório](https://github.com/felipe11dias/postech-fase2-restaurantes-app) · [vídeo de apresentação](https://www.youtube.com/watch?v=N0ckKiKnPcw)
 
-Hoje meu foco está principalmente no ecossistema **Java/Spring**, sem deixar de lado o desenvolvimento frontend e a visão de produto como um todo.
+<a href="https://github.com/felipe11dias/corretoria-social"><img src="assets/projects/corretoria.svg" width="100%" alt="Corretoria: marketplace em evolução. 290 testes, 35 regras ArchUnit e 5 clusters de domínio."></a>
 
----
+**Plataforma que reúne corretores e clientes**, com anúncios de imóveis e automóveis, busca por raio, busca salva com notificações, propostas nas duas direções, reputação e moderação. A Fase 2 está em andamento.
 
-## 🛠️ Tecnologias
+*Stack:* Java 21, Spring Boot 3.5, Spring Security com JWT, HATEOAS, PostgreSQL, Flyway, AWS SDK (S3), MinIO e Docker.<br>
+*Links:* [repositório](https://github.com/felipe11dias/corretoria-social)
 
-### Backend
+<a href="https://github.com/felipe11dias/postech-restaurantes-app"><img src="assets/projects/arquiteturas.svg" width="100%" alt="Uma API, duas arquiteturas: 252 testes na versão em camadas, 290 na hexagonal e 100% de cobertura nas duas."></a>
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge\&logo=openjdk\&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge\&logo=springboot\&logoColor=white)
-![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge\&logo=spring\&logoColor=white)
-![REST API](https://img.shields.io/badge/REST%20API-005571?style=for-the-badge)
-![JPA](https://img.shields.io/badge/JPA-59666C?style=for-the-badge)
-![MyBatis](https://img.shields.io/badge/MyBatis-B7172A?style=for-the-badge)
+**A mesma API implementada em camadas e em hexagonal**, lado a lado, para comparar na prática o que cada arquitetura entrega e o que cobra em troca.
 
-### Frontend
+*Stack:* Java 21, Spring Boot, JdbcTemplate, PostgreSQL, Flyway, JWT e Docker.<br>
+*Links:* [repositório](https://github.com/felipe11dias/postech-restaurantes-app)
 
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge\&logo=angular\&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
-![SCSS](https://img.shields.io/badge/SCSS-CF649A?style=for-the-badge\&logo=sass\&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge\&logo=bootstrap\&logoColor=white)
+<a href="https://fortegalpoes.com"><img src="assets/projects/forte-galpoes.svg" width="100%" alt="Forte Galpões: site em produção em fortegalpoes.com e monorepo Angular 19 com SSR, Nx e design system."></a>
 
-### Banco de dados
+**Presença digital de uma consultoria imobiliária de galpões em Fortaleza.** O site em produção é estático, com SEO completo e conversão via WhatsApp. O monorepo traz uma landing page em Angular 19 com SSR e um design system próprio documentado em Storybook.
 
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge\&logo=oracle\&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge\&logo=postgresql\&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge\&logo=mysql\&logoColor=white)
+*Stack:* HTML, SCSS, Bootstrap, Angular 19, Nx, Tailwind CSS e Storybook.<br>
+*Links:* [site](https://fortegalpoes.com) · [repositório do site](https://github.com/felipe11dias/forte-galpoes-site) · [monorepo Angular](https://github.com/felipe11dias/Forte-Galpoes-Monorepo)
 
-### Outras tecnologias
+<a href="https://github.com/felipe11dias/jogo-serio-tradicional"><img src="assets/projects/tcc-jogos-serios.svg" width="100%" alt="Jogos Sérios, TCC em Ciência da Computação na UNIFOR: 3 jogos integrados, perfis de aluno e professor e ranking de desempenho por jogo."></a>
 
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)
+**Meu Trabalho de Conclusão de Curso em Ciência da Computação:** um ambiente colaborativo de jogos sérios para alunos da graduação. Professores cadastram disciplinas e atividades, e alunos as jogam em três formatos diferentes e acompanham o ranking.
 
----
+*Stack:* React, TypeScript, Redux Toolkit e Material UI no frontend; Java 17, Spring Boot 3, Spring Security com JWT e PostgreSQL no backend.<br>
+*Links:* [frontend](https://github.com/felipe11dias/jogo-serio-tradicional) · [backend](https://github.com/felipe11dias/jogos-serio-tradicional-java)
 
-## 💼 Experiência
+<details>
+<summary><strong>Outros projetos</strong></summary>
+<br>
 
-### 🏢 Universidade de Fortaleza — UNIFOR
+- [`library-spring-boot-4`](https://github.com/felipe11dias/library-spring-boot-4): estudo de Spring Boot 4 com JWT, HATEOAS e Flyway.
+- [`TreinamentoVendas`](https://github.com/felipe11dias/TreinamentoVendas): estudo de Spring Boot, JPA, API REST, Security e JWT.
+- [`React-redux`](https://github.com/felipe11dias/React-redux): estudo de gerenciamento de estado com React e Redux.
+- [`DesafioNati-Back`](https://github.com/felipe11dias/DesafioNati-Back) e [`DesafioNati-Front`](https://github.com/felipe11dias/DesafioNati-Front): desafio de backend e frontend.
 
-**Desenvolvedor Web Pleno**
+</details>
 
-Atuação na área de tecnologia da instituição, participando da análise, desenvolvimento, manutenção e evolução de sistemas Web.
+<img src="assets/divider.svg" width="100%" alt="">
 
-Entre as principais atividades:
+## Stack
 
-* Desenvolvimento e manutenção de aplicações Web;
-* Desenvolvimento de APIs e serviços backend;
-* Implementação de novas funcionalidades;
-* Correção e análise de problemas em sistemas;
-* Integração entre sistemas;
-* Desenvolvimento utilizando Java e Spring;
-* Desenvolvimento frontend utilizando Angular e TypeScript;
-* Trabalhos com bancos de dados Oracle, MySQL e PostgreSQL;
-* Desenvolvimento de testes automatizados;
-* Participação em planejamento e definição de soluções técnicas.
+<p align="center">
+  <img src="assets/stack.svg" width="100%" alt="Topologia animada das tecnologias, conectadas por um barramento de eventos. A lista completa está na tabela a seguir.">
+</p>
 
----
+| Área | Tecnologias |
+| --- | --- |
+| **Backend** | Java, Spring, Spring Boot, Quarkus, REST API, JPA, MyBatis |
+| **Mensageria e orquestração** | Apache Kafka, RabbitMQ, Apache Airflow |
+| **Frontend** | Angular, TypeScript, JavaScript, React, HTML5, CSS3, SCSS, Bootstrap |
+| **Banco de dados** | Oracle, PostgreSQL, MySQL |
+| **Ferramentas** | Docker, Git, GitHub |
 
-## 📚 Formação
+<img src="assets/divider.svg" width="100%" alt="">
 
-🎓 **Ciência da Computação — Universidade de Fortaleza (UNIFOR)**
+## Experiência
 
-🎓 **Pós-graduação em Desenvolvimento Backend Java e Spring — FIAP**
-2026 – 2027
+<!-- experience:start -->
+<p align="center">
+  <img src="assets/experience.svg" width="100%" alt="Escada animada da carreira na UNIFOR: Estagiário, depois Desenvolvedor Web Júnior, depois Desenvolvedor Web Pleno, com 8 anos e 5 meses de experiência.">
+</p>
 
-Também possuo formação complementar em temas como:
+<p align="center"><strong>8 anos e 5 meses de experiência</strong>, do estágio ao cargo atual.</p>
+<!-- experience:end -->
 
-* Lógica de programação;
-* Orientação a objetos;
-* JavaScript;
-* Desenvolvimento de APIs RESTful;
-* Desenvolvimento de aplicações Android;
-* Levantamento e documentação de requisitos.
+### Universidade de Fortaleza (UNIFOR) · Diretoria de Tecnologia
 
----
+**Desenvolvedor Web Pleno** · jul/2021 – atual · Remoto
 
-## 🚀 Projetos
+Atuo no ciclo completo de desenvolvimento de sistemas internos, da análise de requisitos à entrega em produção:
 
-Alguns projetos disponíveis no meu GitHub:
+- APIs e serviços backend com Java, Spring e Quarkus;
+- frontend com Angular e TypeScript;
+- mensageria com Kafka e RabbitMQ e orquestração de pipelines com Airflow;
+- bancos de dados Oracle, MySQL e PostgreSQL;
+- integração entre sistemas, análise e correção de problemas;
+- testes automatizados, planejamento e definição de soluções técnicas.
 
-### 🎮 Jogos Sérios
+**Desenvolvedor Web Júnior** · ago/2020 – jul/2021 · Híbrido
 
-Projetos desenvolvidos durante minha trajetória acadêmica envolvendo **gamificação, jogos educacionais e tecnologias Web**.
+Primeira posição como desenvolvedor após o estágio, com foco em implementação e manutenção de funcionalidades sob orientação do time.
 
-* [`jogo-serio-tradicional`](https://github.com/felipe11dias/jogo-serio-tradicional) — Projeto desenvolvido com TypeScript.
-* [`jogos-serio-tradicional-java`](https://github.com/felipe11dias/jogos-serio-tradicional-java) — Implementação utilizando Java.
+**Estagiário** · jul/2018 – jul/2020
 
-### ⚛️ React + Redux
+Estágio na Diretoria de Tecnologia, onde construí minha base técnica e profissional em desenvolvimento de software.
 
-[`React-redux`](https://github.com/felipe11dias/React-redux)
+## Formação
 
-Projeto desenvolvido para estudar a utilização do **React em conjunto com Redux**, explorando gerenciamento de estado em aplicações frontend.
+- **Pós-graduação em Desenvolvimento Backend Java e Spring**, FIAP (2026 – 2027)
+- **Ciência da Computação**, Universidade de Fortaleza (UNIFOR)
 
-### ☕ Spring Boot
+Formação complementar em lógica de programação, orientação a objetos, JavaScript, APIs RESTful, aplicações Android e levantamento e documentação de requisitos.
 
-[`TreinamentoVendas`](https://github.com/felipe11dias/TreinamentoVendas)
-
-Projeto voltado ao estudo de **Spring Boot, JPA, RESTful API, Security e JWT**.
-
-### 🧩 Desafios Backend e Frontend
-
-* [`DesafioNati-Back`](https://github.com/felipe11dias/DesafioNati-Back)
-* [`DesafioNati-Front`](https://github.com/felipe11dias/DesafioNati-Front)
-
-Projetos desenvolvidos para prática de desenvolvimento backend e frontend.
-
----
-
-## 🎯 Áreas de interesse
-
-```text
-Backend Development
-Software Architecture
-Java & Spring
-REST APIs
-Angular
-Full Stack Development
-Database & SQL
-Software Engineering
-Clean Code
-Testing
-Application Integration
-```
-
-## 🌎 Onde me encontrar
+<img src="assets/divider.svg" width="100%" alt="">
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-felipe11dias-181717?style=for-the-badge\&logo=github)](https://github.com/felipe11dias)
+**"Transformando problemas em soluções através da tecnologia."**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Felipe%20Dias%20Mac%20Dowell-0A66C2?style=for-the-badge\&logo=linkedin)](https://www.linkedin.com/in/felipe-dias-mac-dowell-255578193/)
+[LinkedIn](https://www.linkedin.com/in/felipemacdowell-dev/) · [GitHub](https://github.com/felipe11dias) · [Facebook](https://www.facebook.com/share/1Ep2QC1Mih/)
 
-[![Facebook](https://img.shields.io/badge/Facebook-Felipe%20Dias%20Mac%20Dowell-1877F2?style=for-the-badge\&logo=facebook\&logoColor=white)](https://www.facebook.com/share/1Ep2QC1Mih/)
-
-</div>
-
----
-
-<div align="center">
-
-### 💡 "Transformando problemas em soluções através da tecnologia."
-
-**Obrigado pela visita! 🚀**
+Obrigado pela visita!
 
 </div>

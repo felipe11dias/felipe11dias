@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 440" width="1000" height="440" role="img" aria-labelledby="t d" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace">
+<title id="t">8 anos e 5 meses de experiência na UNIFOR</title>
+<desc id="d">Escada animada com os cargos: Estagiário, Desenvolvedor Web Júnior, Desenvolvedor Web Pleno.</desc>
+<style>
+.fade{animation:fade 14s linear infinite}
+@keyframes fade{0%,95%{opacity:1}100%{opacity:0}}
+.prog{stroke-dasharray:100;stroke-dashoffset:0;animation:prog 14s linear infinite}
+@keyframes prog{0%{stroke-dashoffset:100}18%{stroke-dashoffset:72.37}25%{stroke-dashoffset:72.37}43%{stroke-dashoffset:36.19}50%{stroke-dashoffset:36.19}68%{stroke-dashoffset:0}100%{stroke-dashoffset:0}}
+.climber{offset-path:path('M30 400H336.7V305H643.3V210H950.0');offset-rotate:0deg;offset-distance:100%;animation:climb 14s linear infinite}
+@keyframes climb{0%{offset-distance:0%}18%{offset-distance:27.63%}25%{offset-distance:27.63%}43%{offset-distance:63.81%}50%{offset-distance:63.81%}68%{offset-distance:100%}100%{offset-distance:100%}}
+.reel{transform:translateY(-512px);animation:reel 14s infinite}
+@keyframes reel{0%{transform:translateY(0);animation-timing-function:steps(8,end)}75%,100%{transform:translateY(-512px)}}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.25}50%{opacity:1}}
+@keyframes c1{0%,29.25%{opacity:.28}31.26%,95%{opacity:1}100%{opacity:.28}}@keyframes c2{0%,54.25%{opacity:.28}56.26%,95%{opacity:1}100%{opacity:.28}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<defs>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#1d2743"/></pattern>
+<radialGradient id="glow" cx="12%" cy="0%" r="75%"><stop offset="0" stop-color="#5eead4" stop-opacity=".16"/><stop offset="1" stop-color="#5eead4" stop-opacity="0"/></radialGradient>
+<clipPath id="window"><rect x="30" y="66" width="640" height="64"/></clipPath>
+</defs>
+<rect x="1" y="1" width="998" height="438" rx="16" fill="#0b1020"/>
+<rect x="1" y="1" width="998" height="438" rx="16" fill="url(#dots)"/>
+<rect x="1" y="1" width="998" height="438" rx="16" fill="url(#glow)"/>
+<rect x="1" y="1" width="998" height="438" rx="16" fill="none" stroke="#2a3654" stroke-width="1.5"/>
+<text x="36" y="48" font-size="14" font-weight="700" fill="#5eead4" letter-spacing="1">ESCALADA PROFISSIONAL · UNIFOR</text>
+<g clip-path="url(#window)"><g class="reel">
+<text x="36" y="116" font-size="46" font-weight="700" fill="#e8eefb">0 meses</text>
+<text x="36" y="180" font-size="46" font-weight="700" fill="#e8eefb">1 ano e 1 mês</text>
+<text x="36" y="244" font-size="46" font-weight="700" fill="#e8eefb">2 anos e 1 mês</text>
+<text x="36" y="308" font-size="46" font-weight="700" fill="#e8eefb">3 anos e 2 meses</text>
+<text x="36" y="372" font-size="46" font-weight="700" fill="#e8eefb">4 anos e 3 meses</text>
+<text x="36" y="436" font-size="46" font-weight="700" fill="#e8eefb">5 anos e 3 meses</text>
+<text x="36" y="500" font-size="46" font-weight="700" fill="#e8eefb">6 anos e 4 meses</text>
+<text x="36" y="564" font-size="46" font-weight="700" fill="#e8eefb">7 anos e 4 meses</text>
+<text x="36" y="628" font-size="46" font-weight="700" fill="#e8eefb">8 anos e 5 meses</text>
+</g></g>
+<text x="36" y="158" font-size="18" fill="#c2cde2">de experiência, do estágio ao cargo atual</text>
+<path d="M30 400H336.7V305H643.3V210H950.0" fill="none" stroke="#46557a" stroke-width="2.5" stroke-dasharray="4 7"/>
+<g>
+<rect x="48" y="294" width="270.6666666666667" height="94" rx="10" fill="#121a30" stroke="#2a3654" stroke-width="1.5"/>
+<text x="61" y="322" font-size="16" font-weight="700" fill="#e8eefb">Estagiário</text>
+<text x="61" y="346" font-size="13" fill="#8a97b4">jul/2018 – jul/2020 · Estágio</text>
+<text x="61" y="371" font-size="15" font-weight="700" fill="#c2cde2">2 anos e 1 mês</text>
+</g>
+<g style="animation:c1 14s linear infinite">
+<rect x="354.6666666666667" y="199" width="270.6666666666667" height="94" rx="10" fill="#121a30" stroke="#2a3654" stroke-width="1.5"/>
+<text x="367.6666666666667" y="227" font-size="16" font-weight="700" fill="#e8eefb">Desenvolvedor Web Júnior</text>
+<text x="367.6666666666667" y="251" font-size="13" fill="#8a97b4">ago/2020 – jul/2021 · Híbrido</text>
+<text x="367.6666666666667" y="276" font-size="15" font-weight="700" fill="#c2cde2">1 ano</text>
+</g>
+<g style="animation:c2 14s linear infinite">
+<rect x="661.3333333333334" y="104" width="270.6666666666667" height="94" rx="10" fill="#121a30" stroke="#5eead4" stroke-width="1.5"/>
+<text x="674.3333333333334" y="132" font-size="16" font-weight="700" fill="#e8eefb">Desenvolvedor Web Pleno</text>
+<text x="674.3333333333334" y="156" font-size="13" fill="#8a97b4">jul/2021 – atual · Remoto</text>
+<text x="674.3333333333334" y="181" font-size="15" font-weight="700" fill="#5eead4">5 anos e 5 meses</text>
+</g>
+<path class="prog fade" d="M30 400H336.7V305H643.3V210H950.0" pathLength="100" fill="none" stroke="#5eead4" stroke-width="3.5" stroke-linejoin="round"/>
+<circle class="pulse" cx="950" cy="210" r="15" fill="none" stroke="#5eead4" stroke-width="2"/>
+<circle class="climber" r="8" fill="#5eead4"/>
+</svg>

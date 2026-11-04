@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-labelledby="t d" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace">
+<title id="t">Corretoria</title>
+<desc id="d">Radar que varre um raio de busca e acende os anúncios encontrados.</desc>
+<style>
+.pk{offset-rotate:0deg;animation:mv linear infinite}
+@keyframes mv{0%{offset-distance:0%;opacity:0}6%{opacity:1}94%{opacity:1}100%{offset-distance:100%;opacity:0}}
+.pulse{animation:pulse 3s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}.sweep{transform-origin:803px 150px;animation:spin 5s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}
+.ping{opacity:.18;animation:ping 5s linear infinite}@keyframes ping{0%{opacity:1}35%{opacity:.18}100%{opacity:.18}}</style>
+<defs>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#1d2743"/></pattern>
+<radialGradient id="glow" cx="12%" cy="0%" r="75%"><stop offset="0" stop-color="#fbbf24" stop-opacity=".16"/><stop offset="1" stop-color="#fbbf24" stop-opacity="0"/></radialGradient>
+</defs>
+<rect x="1" y="1" width="998" height="298" rx="16" fill="#0b1020"/>
+<rect x="1" y="1" width="998" height="298" rx="16" fill="url(#dots)"/>
+<rect x="1" y="1" width="998" height="298" rx="16" fill="url(#glow)"/>
+<rect x="1" y="1" width="998" height="298" rx="16" fill="none" stroke="#2a3654" stroke-width="1.5"/>
+<text x="36" y="46" font-size="14" fill="#fbbf24" font-weight="700" letter-spacing="1">MARKETPLACE · EM EVOLUÇÃO</text>
+<text x="606" y="46" font-size="14" fill="#8a97b4" text-anchor="end">abrir ↗</text>
+<text x="36" y="88" font-size="36" fill="#e8eefb" font-weight="700">Corretoria</text>
+<text x="36" y="122" font-size="18" fill="#c2cde2">Plataforma de corretores: anúncios, busca por raio,</text><text x="36" y="148" font-size="18" fill="#c2cde2">propostas, reputação e moderação.</text>
+<rect x="36" y="172" width="180" height="68" rx="10" fill="#121a30" stroke="#2a3654"/>
+<text x="50" y="202" font-size="24" fill="#fbbf24" font-weight="700">290</text>
+<text x="50" y="226" font-size="13" fill="#c2cde2">testes</text>
+<rect x="228" y="172" width="180" height="68" rx="10" fill="#121a30" stroke="#2a3654"/>
+<text x="242" y="202" font-size="24" fill="#fbbf24" font-weight="700">35</text>
+<text x="242" y="226" font-size="13" fill="#c2cde2">regras ArchUnit</text>
+<rect x="420" y="172" width="180" height="68" rx="10" fill="#121a30" stroke="#2a3654"/>
+<text x="434" y="202" font-size="24" fill="#fbbf24" font-weight="700">5</text>
+<text x="434" y="226" font-size="13" fill="#c2cde2">clusters de domínio</text>
+<text x="36" y="270" font-size="14" fill="#8a97b4">Java 21 · Spring Boot 3.5 · PostgreSQL · S3/MinIO · HATEOAS · JWT</text>
+<rect x="630" y="24" width="346" height="252" rx="12" fill="#121a30" stroke="#2a3654" stroke-width="1.5"/>
+<circle cx="803" cy="150" r="36" fill="none" stroke="#fbbf24" stroke-opacity=".35"/><circle cx="803" cy="150" r="72" fill="none" stroke="#fbbf24" stroke-opacity=".35"/><circle cx="803" cy="150" r="108" fill="none" stroke="#fbbf24" stroke-opacity=".35"/><path d="M695 150H911M803 42V258" stroke="#fbbf24" stroke-opacity=".2"/>
+<path class="sweep" d="M803 150L911 150A108 108 0 0 0 885.7 80.6Z" fill="#fbbf24" fill-opacity=".32"/><circle class="ping" style="animation-delay:0.42s" cx="856.7" cy="181.0" r="6" fill="#fbbf24"/><circle class="ping" style="animation-delay:1.32s" cx="795.3" cy="237.7" r="6" fill="#fbbf24"/><circle class="ping" style="animation-delay:2.22s" cx="759.8" cy="165.7" r="6" fill="#fbbf24"/><circle class="ping" style="animation-delay:2.99s" cx="739.1" cy="105.3" r="6" fill="#fbbf24"/><circle class="ping" style="animation-delay:4.03s" cx="822.8" cy="95.5" r="6" fill="#fbbf24"/><circle class="ping" style="animation-delay:4.65s" cx="886.4" cy="111.1" r="6" fill="#fbbf24"/><circle cx="803" cy="150" r="5" fill="#e8eefb"/>
+</svg>
